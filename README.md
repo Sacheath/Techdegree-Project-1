@@ -1,6 +1,12 @@
 # Techdegree Project 1
  My first Techdegree project
 
+# Description of Project 1
+This project is intended as a number guessing game. A random number will be generated. Players will be shown the high score and prompted to select a number from 1-100 and receive feedback on whether to guess higher or lower. 
+Once the answer is correctly guessed, players will be asked if they would to play again. Their statistics will be displayed if they decline.
+
+
+# Instructions for Project 1
 Make sure your script runs without errors. Catch exceptions and report errors to the user in a meaningful way. For example, non-number guesses should be handled with an exception.
 
 As a player of the game, I should see some kind of text header, welcome, or game intro message.
@@ -28,3 +34,12 @@ As a player of the game, after I guess correctly I should be prompted if I would
 Every time a player decides to play again, the random number to guess is updated so players are guessing something new each time.
 
 When the game ends, an ending message is shown to the player.
+
+# Extra Credit for Project 1
+As a player of the game, my guess should be within the number range. If my guess is outside the guessing range I should be told to try again.
+
+As a player of the game, at the start of each game, I should be shown the current best score (least amount of points) so that I know what I am supposed to beat.
+
+When printing a formatted string to the console, use f-strings to format them.
+
+Create a README.md file for your project. Inside the file, describe what your project does.
