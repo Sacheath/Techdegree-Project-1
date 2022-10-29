@@ -38,16 +38,13 @@ def start_game():
                     
                 if confirm_game.lower() == 'n':
                     print(f"""
-                    Sorry to hear that. Here's your stats for this round!
-
+                    Sorry to hear that. Here's your stats for this round!\n
                     Attempts: {total_guesses}
                     Mean Guess: {mean(high_score):.0f}
                     Median Guess: {median(high_score)}
-                    Mode Guess: {mode(high_score)}
-
+                    Mode Guess: {mode(high_score)}\n
                     Come back later if you ever want to try again!""")
                     exit()
-
                 elif confirm_game.lower() == 'y':
                     print(f"\nThe current high score is {min(high_score)} attempts!\n")
                     answer = random.randrange(1,100)
