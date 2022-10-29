@@ -4,8 +4,10 @@ from statistics import mode, median, mean
 high_score = []
 
 def start_game():
-    print("Welcome to Team Treehouse's first project: Number Guessing Game!")
-    print ("Pick a number between 1 and 100!")
+    if not high_score:
+        print("Welcome to Team Treehouse's first project: Number Guessing Game!")
+        print("\nThere's no current high score!")
+    print("\nPick a number between 1 and 100!")
 
     while True:
         total_guesses = 0
