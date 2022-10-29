@@ -1,6 +1,3 @@
-# Techdegree Project 1
- My first Techdegree project
-
 # Description of Project 1
 This project is intended as a number guessing game. A random number will be generated. Players will be shown the high score and prompted to select a number from 1-100 and receive feedback on whether to guess higher or lower. 
 Once the answer is correctly guessed, players will be asked if they would to play again. Their statistics will be displayed if they decline.
