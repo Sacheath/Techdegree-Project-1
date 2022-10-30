@@ -14,6 +14,7 @@ def start_game():
         answer = random.randrange(1,100)
 
         while True:
+            total_guesses += 1
             try:
                 player_guess = int(input("> "))
                 if player_guess <= 0 or player_guess > 100:
@@ -23,14 +24,12 @@ def start_game():
                 continue
             if player_guess > answer:
                 print("It's lower!")
-                total_guesses += 1
                 continue
             elif player_guess < answer:
                 print("It's higher!")
-                total_guesses += 1
                 continue
             else:
-                print(f"You got it right in only {total_guesses} attempts!")
+                print(f"You got it right in only {total_guesses} attempt(s)!")
                 high_score.append(total_guesses)
                 break
 
